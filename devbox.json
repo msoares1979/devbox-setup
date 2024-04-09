@@ -11,7 +11,8 @@
     "docker-compose@latest",
     "docker@latest",
     "curl@latest",
-    "nerdfonts@latest"
+    "nerdfonts@latest",
+    "dos2unix@latest"
   ],
   "env": {
     "USERNAME": "Milton Soares Filho",
