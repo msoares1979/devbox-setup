@@ -14,7 +14,8 @@
     "nerdfonts@latest",
     "dos2unix@latest",
     "tmux@latest",
-    "dust@latest"
+    "dust@latest",
+    "gnupg@latest"
   ],
   "env": {
     "USERNAME": "Milton Soares Filho",
