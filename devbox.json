@@ -1,21 +1,21 @@
 {
   "packages": [
-    "python3@latest",
-    "git@latest",
-    "ripgrep@latest",
-    "starship@latest",
-    "neovim@latest",
-    "fzf@latest",
-    "jq@latest",
-    "pstree@latest",
+    "curl@latest",
     "docker-compose@latest",
     "docker@latest",
-    "curl@latest",
-    "nerdfonts@latest",
     "dos2unix@latest",
-    "tmux@latest",
     "dust@latest",
-    "gnupg@latest"
+    "fzf@latest",
+    "git@latest",
+    "gnupg@latest",
+    "jq@latest",
+    "neovim@latest",
+    "nerdfonts@latest",
+    "pstree@latest",
+    "python3@latest",
+    "ripgrep@latest",
+    "starship@latest",
+    "tmux@latest"
   ],
   "env": {
     "USERNAME": "Milton Soares Filho",
