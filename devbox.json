@@ -12,7 +12,8 @@
     "docker@latest",
     "curl@latest",
     "nerdfonts@latest",
-    "dos2unix@latest"
+    "dos2unix@latest",
+    "tmux@latest"
   ],
   "env": {
     "USERNAME": "Milton Soares Filho",
