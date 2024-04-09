@@ -30,11 +30,13 @@
     "scripts": {
       "work-from-home": [
         "export EMAIL=\"milton.soares.filho@zappware.com\"",
-        "nmcli con up id 'Zappware VPN'"
+        "nmcli con up id 'Zappware VPN'",
+        "cd ~/projects/zappware/deployment/tasks"
       ],
       "work-from-office": [
         "export EMAIL=\"milton.soares.filho@zappware.com\"",
-        "nmcli radio wifi off"
+        "nmcli radio wifi off",
+        "cd ~/projects/zappware/deployment/tasks"
       ],
       "test": [
         "echo \"Error: no test specified\" && exit 1"
