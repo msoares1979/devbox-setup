@@ -10,7 +10,7 @@
     "pstree@latest",
     "docker-compose@latest",
     "docker@latest",
-    "curl@latest"
+    "curl@latest",
   ],
   "env": {
     "USERNAME": "Milton Soares Filho",
