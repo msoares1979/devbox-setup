@@ -13,7 +13,8 @@
     "curl@latest",
     "nerdfonts@latest",
     "dos2unix@latest",
-    "tmux@latest"
+    "tmux@latest",
+    "dust@latest"
   ],
   "env": {
     "USERNAME": "Milton Soares Filho",
