@@ -1,0 +1,35 @@
+{
+  "packages": [
+    "python3@latest",
+    "git@latest",
+    "ripgrep@latest",
+    "starship@latest",
+    "neovim@latest",
+    "fzf@latest",
+    "jq@latest",
+    "pstree@latest",
+    "docker-compose@latest",
+    "docker@latest",
+    "curl@latest"
+  ],
+  "env": {
+    "USERNAME": "Milton Soares Filho",
+    "EMAIL":    "milton.soares.filho@gmail.com",
+    "EDITOR":   "nvim",
+    "LANG":     "en_US.UTF-8",
+    "LC_CTYPE": "pt_BR.UTF-8",
+
+    "LAST": ""
+  },
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null",
+      "set -o vi"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
