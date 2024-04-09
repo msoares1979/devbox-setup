@@ -28,6 +28,14 @@
       "set -o vi"
     ],
     "scripts": {
+      "work-from-home": [
+        "export EMAIL=\"milton.soares.filho@zappware.com\"",
+        "nmcli con up id 'Zappware VPN'"
+      ],
+      "work-from-office": [
+        "export EMAIL=\"milton.soares.filho@zappware.com\"",
+        "nmcli radio wifi off"
+      ],
       "test": [
         "echo \"Error: no test specified\" && exit 1"
       ]
