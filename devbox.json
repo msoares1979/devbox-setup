@@ -15,7 +15,8 @@
     "python3@latest",
     "ripgrep@latest",
     "starship@latest",
-    "tmux@latest"
+    "tmux@latest",
+    "stow@latest"
   ],
   "env": {
     "USERNAME": "Milton Soares Filho",
