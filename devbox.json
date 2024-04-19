@@ -1,5 +1,6 @@
 {
   "packages": [
+    "path:devbox.d/bash",
     "curl@latest",
     "docker-compose@latest",
     "docker@latest",
