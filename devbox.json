@@ -36,6 +36,7 @@
     "scripts": {
       "work-from-home": [
         "export EMAIL=\"milton.soares.filho@zappware.com\"",
+        "nmcli radio wifi on",
         "nmcli con up id 'Zappware VPN'",
         "cd ~/projects/zappware/deployment/tasks"
       ],
