@@ -2,6 +2,7 @@
   "packages": [
     "path:devbox.d/bash",
     "curl@latest",
+    "direnv@latest",
     "docker-compose@latest",
     "docker@latest",
     "dos2unix@latest",
