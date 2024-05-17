@@ -37,12 +37,14 @@
     ],
     "scripts": {
       "work-from-home": [
+        "echo 'devbox work: running work-from-home'",
         "export EMAIL=\"milton.soares.filho@zappware.com\"",
         "nmcli radio wifi on",
         "nmcli con up id 'Zappware VPN'",
         "cd ~/projects/zappware/deployment/tasks"
       ],
       "work-from-office": [
+        "echo 'devbox work: running work-from-office'",
         "export EMAIL=\"milton.soares.filho@zappware.com\"",
         "nmcli radio wifi off",
         "cd ~/projects/zappware/deployment/tasks"
