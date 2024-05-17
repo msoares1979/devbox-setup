@@ -31,9 +31,8 @@
   },
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null",
-      "command -v starship 2>/dev/null && eval \"$(starship init bash --print-full-init)\"",
-      "set -o vi"
+      "echo 'devbox init hook begin'",
+      "echo 'devbox init hook end'"
     ],
     "scripts": {
       "work-from-home": [
