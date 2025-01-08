@@ -9,6 +9,7 @@
     "dust@latest",
     "fzf@latest",
     "git@latest",
+    "glibcLocales@latest",
     "gnupg@latest",
     "jq@latest",
     "neovim@latest",
@@ -27,7 +28,6 @@
     "EDITOR":   "nvim",
     "LANG":     "en_US.UTF-8",
     "LC_CTYPE": "pt_BR.UTF-8",
-
     "LAST": ""
   },
   "shell": {
